@@ -1,0 +1,7 @@
+port: 8000
+
+parse:
+    curl "http://127.0.0.1:8000/parse?url=https://novosibirsk.hh.ru/"
+
+upload db:
+    curl "http://127.0.0.1:8000/get_data"

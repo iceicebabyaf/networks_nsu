@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Бизнес-ассистент по организации строительства загородных домов / Менеджер по работе с клиентами",
+        "salary:": "до 1 000 000 ₽ за месяц, до вычета налогов",
+        "employer": "Проект ЗА ПРЕКРАСНУЮ ЖИЗНЬ (ИП Елисеев Василий Юрьевич)",
+        "location": "Москва"
+    },
+    {
+        "id": 2,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер - Проектировщик (ОВ, ВК), Частного домостроения",
+        "salary:": "120 000 – 160 000 ₽ за месяц, на руки",
+        "employer": "ООО ГУД СТОУН",
+        "location": "Москва"
+    },
+    {
+        "id": 3,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик электрощитового оборудования",
+        "salary:": "80 000 – 150 000 ₽ за месяц, на руки",
+        "employer": "ООО Мобилис",
+        "location": "Новосибирск"
+    },
+    {
+        "id": 4,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик АС, КЖ, КМ",
+        "salary:": "от 80 000 ₽ за месяц, на руки",
+        "employer": "ООО Эксперт Инжиниринг",
+        "location": "Тула"
+    },
+    {
+        "id": 5,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик",
+        "salary:": "от 80 000 ₽ за месяц, на руки",
+        "employer": "ООО ПРОЕКТ-Т-15",
+        "location": "Москва"
+    },
+    {
+        "id": 6,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик",
+        "salary:": "65 000 – 110 000 ₽ за месяц, на руки",
+        "employer": "ООО АлтайСвязьСервис",
+        "location": "Барнаул"
+    },
+    {
+        "id": 7,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик фасадов (Стажер)",
+        "salary:": "от 70 000 ₽ за месяц, до вычета налогов",
+        "employer": "Hilti Россия",
+        "location": "Ростов-на-Дону"
+    },
+    {
+        "id": 8,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик фасадов (Стажер)",
+        "salary:": "от 70 000 ₽ за месяц, до вычета налогов",
+        "employer": "Hilti Россия",
+        "location": "Екатеринбург"
+    },
+    {
+        "id": 9,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-конструктор без опыта работы",
+        "salary:": "от 70 000 ₽ за месяц, на руки",
+        "employer": "SOLLAB",
+        "location": "Подольск (Московская область)"
+    },
+    {
+        "id": 10,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик фасадов (Стажер)",
+        "salary:": "от 70 000 ₽ за месяц, до вычета налогов",
+        "employer": "Hilti Россия",
+        "location": "Самара"
+    },
+    {
+        "id": 11,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик раздела ТХ (инженерные сети)",
+        "salary:": "от 70 000 ₽ за месяц, на руки",
+        "employer": "ООО БалтСпецПроект",
+        "location": "Санкт-Петербург"
+    },
+    {
+        "id": 12,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Начинающий инженер-проектировщик",
+        "salary:": "от 60 000 ₽ за месяц, до вычета налогов",
+        "employer": "АО ВНИПИпромтехнологии",
+        "location": "Москва"
+    },
+    {
+        "id": 13,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер - проектировщик КМ КЖ",
+        "salary:": "от 60 000 ₽ за месяц, на руки",
+        "employer": "ООО Проект Магна",
+        "location": "Омск"
+    },
+    {
+        "id": 14,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик",
+        "salary:": "30 000 – 100 000 ₽ за месяц, на руки",
+        "employer": "Наяда",
+        "location": "Ростов-на-Дону"
+    },
+    {
+        "id": 15,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Помощник Инженера-проектировщика (Отопление, Водоснабжение, Водоотведение, Котельные)",
+        "salary:": "60 000 – 70 000 ₽ за месяц, на руки",
+        "employer": "ООО Альстрамерия",
+        "location": "Москва"
+    },
+    {
+        "id": 16,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Помощник инженера",
+        "salary:": "от 50 000 ₽ за месяц, до вычета налогов",
+        "employer": "ООО Бельведер",
+        "location": "Владивосток"
+    },
+    {
+        "id": 17,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер (стажер)",
+        "salary:": "от 50 000 ₽ за месяц, на руки",
+        "employer": "ООО ОмегаПром",
+        "location": "Набережные Челны"
+    },
+    {
+        "id": 18,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Помощник инженера-проектировщика ОВ и ВК",
+        "salary:": "от 40 000 ₽ за месяц, на руки",
+        "employer": "ООО СК Все Строй",
+        "location": "Челябинск"
+    },
+    {
+        "id": 19,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер проектировщик/Ученик проектировщика",
+        "salary:": "от 35 000 ₽ за месяц, на руки",
+        "employer": "ООО Инженерное дело",
+        "location": "Санкт-Петербург"
+    },
+    {
+        "id": 20,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик ТГВ, ОВиК",
+        "salary:": "20 000 – 60 000 ₽ за месяц, на руки",
+        "employer": "ООО Вент-Индустрия",
+        "location": "Тюмень"
+    },
+    {
+        "id": 21,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик тепломеханического оборудования (стажер)",
+        "salary:": "20 000 – 50 000 ₽ за месяц, на руки",
+        "employer": "ООО УралТеплоТехСервис",
+        "location": "Екатеринбург"
+    },
+    {
+        "id": 22,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Помощник дендролога",
+        "salary:": "20 000 – 40 000 ₽ за месяц, на руки",
+        "employer": "ООО РусЛидерПроект",
+        "location": "Москва"
+    },
+    {
+        "id": 23,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Помощник инженера-проектировщика НВК",
+        "salary:": "20 000 – 40 000 ₽ за месяц, на руки",
+        "employer": "ООО РусЛидерПроект",
+        "location": "Москва"
+    },
+    {
+        "id": 24,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Начинающий специалист / Помощник инженера-проектировщика-стажёр",
+        "salary:": "Not stated",
+        "employer": "ЭКСПЕРТЭНЕРГО",
+        "location": "Минск"
+    },
+    {
+        "id": 25,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Помощник Инженера-проектировщика КЖ",
+        "salary:": "Not stated",
+        "employer": "ООО МПИ",
+        "location": "Санкт-Петербург"
+    },
+    {
+        "id": 26,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Recruitment intern / Стажер в отдел по подбору персонала",
+        "salary:": "Not stated",
+        "employer": "Antal Talent",
+        "location": "Москва"
+    },
+    {
+        "id": 27,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Младший инженер-проектировщик",
+        "salary:": "Not stated",
+        "employer": "АО ТопРендж",
+        "location": "Москва"
+    },
+    {
+        "id": 28,
+        "main page link": "https://novosibirsk.hh.ru/search/vacancy?text=python+developer",
+        "vacancy": "Инженер-проектировщик слаботочных систем",
+        "salary:": "Not stated",
+        "employer": "ООО Инсети",
+        "location": "Санкт-Петербург"
+    }
+]
