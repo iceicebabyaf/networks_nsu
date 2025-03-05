@@ -1,0 +1,16 @@
+{
+    "account": [
+        {
+            "phone_number": "your phone num",
+            "password": "your password",
+            "vacancy": "lalala"
+        }
+    ],
+    "vacancyFilter": [
+        "Нет опыта",
+        "Частичная занятость",
+        "По убыванию зарплат",
+        "100 вакансий"
+    ]
+
+}
