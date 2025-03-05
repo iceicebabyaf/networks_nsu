@@ -1,7 +1,10 @@
 port: 8000
 
+fastApi launch:
+    $uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+
 parse:
-    curl "http://127.0.0.1:8000/parse?url=https://novosibirsk.hh.ru/"
+    $curl "http://127.0.0.1:8000/parse?url=https://novosibirsk.hh.ru/"
 
 upload db:
-    curl "http://127.0.0.1:8000/get_data"
+    $curl "http://127.0.0.1:8000/get_data"
