@@ -34,7 +34,6 @@ def connect_to_db():
         cur = conn.cursor()
         cur.execute("SELECT version();")
         db_version = cur.fetchone()
-        print(f"DB connected🥶: {db_version}")
         return conn, cur
     except Exception as e:
         print(f"Beda with DB🤬: {e}")
@@ -65,7 +64,6 @@ def save_to_db(data, url):
         conn.commit()
         cur.close()
         conn.close()
-        print("🤑💸📈data loaded to db🤑💸📈")
 
     except Exception as e:
         print(f"exception {e}")
@@ -84,7 +82,6 @@ def get_data_from_db():
         data = [{"id": row[0], "main page link": row[1], "vacancy": row[2], "salary:": row[3], "employer": row[4], "location": row[5], } for row in rows]
         with open("/Users/xd/Desktop/comp_netw/sems/fastApi_Sql/vacancies.json", "w", encoding="utf-8") as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
-        print("🤑💸📈data uploaded from db🤑💸📈")
         return data
     except Exception as e:
         print(f"exception get data: {e}")
@@ -318,8 +315,8 @@ def run_parser(url: str):
 
 @app.get("/parse")
 def parse(url: str = Query(..., title="https://novosibirsk.hh.ru/")):
-    thread = Thread(target=run_parser, args=(url,))
-    thread.start()
+    data = run_parser(url)
+    return {"parser finished✅"}
 
 @app.get("/get_data")
 def get_data():
