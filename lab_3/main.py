@@ -21,8 +21,8 @@ import psycopg2
 
 DB_PARAMS = {
     "dbname": "my_parser_db",
-    "user": "postgres",
-    "password": "1234",  
+    "user": "****",
+    "password": "****",  
     "host": "localhost",
     "port": "5432"
 }
