@@ -316,7 +316,7 @@ def run_parser(url: str):
 @app.get("/parse")
 def parse(url: str = Query(..., title="https://novosibirsk.hh.ru/")):
     data = run_parser(url)
-    return {"parser finished✅"}
+    return {"parser finished👩‍❤️‍💋‍👩"}
 
 @app.get("/get_data")
 def get_data():
