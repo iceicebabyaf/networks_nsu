@@ -55,7 +55,12 @@ def save_to_db(data, url):
         for i in range(len(data)):
             for j in range(len(data[i])):
                 cur.execute(
-                    (url, data[i][j][0], data[i][j][1], data[i][j][2], data[i][j][3]))
+                    """
+                    INSERT INTO parsed_data (url, vacancy, salary, employer, location)
+                    VALUES (%s, %s, %s, %s, %s);
+                    """,
+                    (url, data[i][j][0], data[i][j][1], data[i][j][2], data[i][j][3])
+                )
 
         conn.commit()
         cur.close()
