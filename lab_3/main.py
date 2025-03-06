@@ -1,19 +1,14 @@
+import time
+import json
+import csv
+
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
-import json
-import csv
-#   fastapi
 from fastapi import FastAPI, Query
-from fastapi import HTTPException
-from selenium import webdriver
 import uvicorn
-from threading import Thread
-#   db
 import psycopg2
 
 
@@ -33,7 +28,6 @@ def connect_to_db():
         conn = psycopg2.connect(**DB_PARAMS)
         cur = conn.cursor()
         cur.execute("SELECT version();")
-        db_version = cur.fetchone()
         return conn, cur
     except Exception as e:
         print(f"Beda with DB🤬: {e}")
