@@ -71,12 +71,12 @@ def get_data_from_db():
         print(f"Exception in get_data_from_db: {e}")
         return {"status": "error", "message": str(e)}
 
-arr = ["google.com", "mail.google.com", "yandex.com", "youtube.com", "mail.com", "apple.com", "logitech.com", "habr.com", "github.com", "stackoverflow.com"]
+links_arr = ["google.com", "mail.google.com", "yandex.com", "youtube.com", "mail.com", "apple.com", "logitech.com", "habr.com", "github.com", "stackoverflow.com"]
 
 app = FastAPI()
 @app.get("/pull_data")
 def pull_data():
-    return save_to_db(arr)
+    return save_to_db(links_arr)
 
 @app.get("/get_data")
 def get_data():
