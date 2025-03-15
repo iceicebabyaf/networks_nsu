@@ -1,0 +1,40 @@
+DOCKER:
+1. turn on docker daemon
+2. $docker network create comp_network
+
+
+POSTGRES DB CONTAINER (comp_postgres):
+1. $docker run -d \
+  --name comp_postgres \
+  --network comp_network \
+  -e POSTGRES_DB=**** \
+  -e POSTGRES_USER=**** \
+  -e POSTGRES_PASSWORD=**** \
+  -p 5432:5432 \
+  postgres
+2. $docker logs comp_postgres
+3. $docker exec -it comp_postgres psql -U postgres -d my_parser_db
+4. $CREATE TABLE links (
+    link TEXT PRIMARY KEY
+    );
+
+
+
+FASTAPI CONTAINER (comp_fastapi):
+1. $git clone <this repo>
+2. $cd docker_containers
+3. $docker build -t fastapi_app .
+4. $docker ps ----- is the fastApi container working correctly
+5. $docker run -d --name comp_fastapi --network comp_network -p 8080:8080 fastapi_app
+6. docker exec -it comp_fastapi cat /app/links.json ---- check data from output csv file after /get_data 
+
+
+LAUNCH:
+1. $curl http://127.0.0.1:8080/pull_data
+2. $curl http://127.0.0.1:8080/get_data
+
+
+SQL:
+1. docker exec -it comp_postgres psql -U postgres -d my_parser_db
+2. $SELECT * FROM links;
+3. $TRUNCATE TABLE links;
