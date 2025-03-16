@@ -1,0 +1,41 @@
+$ docker run -d --name comp_nginx \
+  --network comp_network \
+  -p 80:80 \
+  nginx
+
+
+$ docker exec -it comp_nginx /bin/sh
+
+$ rm /etc/nginx/nginx.conf
+
+$ echo "events { }
+
+http {
+    server {
+        listen 80;
+
+        server_name localhost;
+
+        location / {
+            proxy_pass http://comp_fastapi:8080;
+            proxy_set_header Host \$host;
+            proxy_set_header X-Real-IP \$remote_addr;
+            proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$scheme;
+        }
+    }
+}" > /etc/nginx/nginx.conf
+
+
+$ cat /etc/nginx/nginx.conf
+
+
+$ docker restart comp_nginx
+
+
+$ exit
+
+
+$ curl http://127.0.0.1/pull_data
+$ curl http://127.0.0.1/get_data
+
